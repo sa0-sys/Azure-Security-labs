@@ -56,4 +56,4 @@ The goal: prove the skills, not just study them.
 
 ---
 
-*Built by [Susannah](https://github.com/Susannah) — learning in public, one lab at a time.*
+*Built by [Susannah](https://github.com/sa0-sys) — learning in public, one lab at a time.*
