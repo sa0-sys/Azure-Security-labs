@@ -18,6 +18,7 @@ Northgate University is a mid-sized research university with four faculties:
 - ⚕️ Faculty of Medicine & Health Sciences
 - ⚖️ Faculty of Law & Social Sciences
 - 🔬 Faculty of Research & Innovation
+
 In this lab, I built the identity foundation of Northgate's Microsoft Entra ID tenant from scratch — provisioning users, organising them into security groups, creating Administrative Units per faculty, and assigning tenant-wide roles to key staff.
  
 ---
