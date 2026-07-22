@@ -14,11 +14,11 @@ the Registrar's office.
 
 ## Modules covered
 
-| Module | Status | Notes |
-|---|---|---|
-| 1. Manage and implement authentication methods | ✅ Completed | [notes](notes/) |
-| 2. Implement and configure Privileged Identity Management (PIM) | 🔄 In progress | |
-| 3. Authenticate your API plugin for declarative agents with secured APIs | ⬜ Not started | |
+| Module | Status |
+|---|---|
+| 1. Manage and implement authentication methods | ✅ Completed |
+| 2. Implement and configure Privileged Identity Management (PIM) | 🔄 In progress | 
+| 3. Authenticate your API plugin for declarative agents with secured APIs | ⬜ Not started | 
 
 ## Setup notes
 
@@ -29,5 +29,4 @@ the Registrar's office.
 
 ## Build log
 
-See [`notes/`](notes/) for dated entries logged as each unit is covered and built.
 The full task-by-task plan lives in [MANUAL.md](./MANUAL.md).
