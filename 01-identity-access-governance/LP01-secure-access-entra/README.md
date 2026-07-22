@@ -16,8 +16,8 @@ the Registrar's office.
 
 | Module | Status | Notes |
 |---|---|---|
-| 1. Manage and implement authentication methods | 🔄 In progress | [notes](notes/) |
-| 2. Implement and configure Privileged Identity Management (PIM) | ⬜ Not started | |
+| 1. Manage and implement authentication methods | ✅ Completed | [notes](notes/) |
+| 2. Implement and configure Privileged Identity Management (PIM) | 🔄 In progress | |
 | 3. Authenticate your API plugin for declarative agents with secured APIs | ⬜ Not started | |
 
 ## Setup notes
