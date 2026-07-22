@@ -1,4 +1,4 @@
-Building the Northgate University Identity Foundation
+## Building the Northgate University Identity Foundation
  
 **Domain:** Identity & Access Governance  
 **Module:** Manage Security Controls for Identity and Access (SC-500)  
