@@ -41,14 +41,14 @@ story — from first factor to password reset — with registration itself locke
 
 | # | Unit | Lab task | Done |
 |---|---|---|---|
-| 1.1 | [Introduction](https://learn.microsoft.com/en-us/training/modules/manage-implement-authentication-methods/1-introduction) | Read only — no build | ⬜ |
-| 1.2 | [Explore authentication methods](https://learn.microsoft.com/en-us/training/modules/manage-implement-authentication-methods/2-explore-authentication-methods) | In Entra admin center, review current Authentication methods policy for Northgate tenant. Note which methods are enabled by default. | ⬜ |
-| 1.3 | [Configure MFA](https://learn.microsoft.com/en-us/training/modules/manage-implement-authentication-methods/3-configure-mfa) | Build: (a) CA policy requiring MFA for all users, (b) a named location for a "trusted" Northgate IP range, (c) CA policy restricting the `Register security information` action to trusted location or TAP, (d) a registration campaign with an enrollment deadline | ⬜ |
-| 1.4 | [Implement passwordless authentication](https://learn.microsoft.com/en-us/training/modules/manage-implement-authentication-methods/4-implement-passwordless-authentication) | Enable at least one passwordless method (e.g. Authenticator passwordless sign-in or passkeys) in the Authentication methods policy for a pilot group (e.g. IT staff) | ⬜ |
-| 1.5 | [Configure SSPR](https://learn.microsoft.com/en-us/training/modules/manage-implement-authentication-methods/5-configure-self-service-password-reset) | Enable SSPR for a Northgate user group, configure required authentication methods for reset | ⬜ |
-| 1.6 | [Exercise: Configure authentication methods](https://learn.microsoft.com/en-us/training/modules/manage-implement-authentication-methods/6-exercise-configure-authentication-methods) | Follow the official guided exercise directly against Northgate instead of a throwaway sandbox | ⬜ |
-| 1.7 | [Module assessment](https://learn.microsoft.com/en-us/training/modules/manage-implement-authentication-methods/7-knowledge-check) | Complete — no build | ⬜ |
-| 1.8 | [Summary](https://learn.microsoft.com/en-us/training/modules/manage-implement-authentication-methods/8-summary) | Read only | ⬜ |
+| 1.1 | [Introduction](https://learn.microsoft.com/en-us/training/modules/manage-implement-authentication-methods/1-introduction) | Read only — no build | ✅ |
+| 1.2 | [Explore authentication methods](https://learn.microsoft.com/en-us/training/modules/manage-implement-authentication-methods/2-explore-authentication-methods) | In Entra admin center, review current Authentication methods policy for Northgate tenant. Note which methods are enabled by default. | ✅ |
+| 1.3 | [Configure MFA](https://learn.microsoft.com/en-us/training/modules/manage-implement-authentication-methods/3-configure-mfa) | Build: (a) CA policy requiring MFA for all users, (b) a named location for a "trusted" Northgate IP range, (c) CA policy restricting the `Register security information` action to trusted location or TAP, (d) a registration campaign with an enrollment deadline | ✅ |
+| 1.4 | [Implement passwordless authentication](https://learn.microsoft.com/en-us/training/modules/manage-implement-authentication-methods/4-implement-passwordless-authentication) | Enable at least one passwordless method (e.g. Authenticator passwordless sign-in or passkeys) in the Authentication methods policy for a pilot group (e.g. IT staff) | ✅ |
+| 1.5 | [Configure SSPR](https://learn.microsoft.com/en-us/training/modules/manage-implement-authentication-methods/5-configure-self-service-password-reset) | Enable SSPR for a Northgate user group, configure required authentication methods for reset | ✅ |
+| 1.6 | [Exercise: Configure authentication methods](https://learn.microsoft.com/en-us/training/modules/manage-implement-authentication-methods/6-exercise-configure-authentication-methods) | Follow the official guided exercise directly against Northgate instead of a throwaway sandbox | ✅ |
+| 1.7 | [Module assessment](https://learn.microsoft.com/en-us/training/modules/manage-implement-authentication-methods/7-knowledge-check) | Complete — no build | ✅ |
+| 1.8 | [Summary](https://learn.microsoft.com/en-us/training/modules/manage-implement-authentication-methods/8-summary) | Read only | ✅ |
 
 **Verification for Module 1:** sign in as a test user and confirm MFA is
 challenged; attempt to register security info from an "untrusted" location and
