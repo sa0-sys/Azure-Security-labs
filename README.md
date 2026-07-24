@@ -49,7 +49,7 @@ The goal: prove the skills, not just study them.
 
 ## 🚀 Progress
 
-- [✅] Domain 1 — Identity, Access & Governance
+✅ Domain 1 — Identity, Access & Governance
 - [ ] Domain 2 — Storage, Databases & Networking
 - [ ] Domain 3 — Compute Security
 - [ ] Domain 4 — Security Posture & Monitoring
