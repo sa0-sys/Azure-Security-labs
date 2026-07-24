@@ -22,8 +22,8 @@ This domain is the foundation of everything else — if identity isn't secured, 
 
 | Lab | Description | Status |
 |---|---|---|
-| [Secure access to resources by using Microsoft Entra](secure-access-entra/) | MFA + Conditional Access, passwordless auth, SSPR, PIM just-in-time access (Entra roles, Azure roles, PIM for Groups, AI agents), and declarative agent API plugin auth (API key & OAuth2) | 🔄 In progress |
-| Azure Key Vault — defense in depth | Access policies vs RBAC, secrets, keys, certificates | ⏳ Coming soon |
+| [Secure access to resources by using Microsoft Entra](secure-access-entra/) | MFA + Conditional Access, passwordless auth, SSPR, PIM just-in-time access (Entra roles, Azure roles, PIM for Groups, AI agents), and declarative agent API plugin auth (API key & OAuth2) | ✅ Completed |
+| Azure Key Vault — defense in depth | Access policies vs RBAC, secrets, keys, certificates | 🔄In progress |
 | Azure Policy & governance | Policy definitions, initiatives, enforce tagging & allowed regions, regulatory compliance | ⏳ Coming soon |
 
 ## 📚 Microsoft Learn Modules
