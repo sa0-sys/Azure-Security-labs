@@ -74,7 +74,7 @@ lead, Registrar admin) get time-bound, approval-gated privilege instead.
 | 2.9 | [Module assessment](https://learn.microsoft.com/en-my/training/modules/implement-configure-privileged-identity-management/9-knowledge-check) | Complete — no build | ✅ |
 | 2.10 | [Summary](https://learn.microsoft.com/en-my/training/modules/implement-configure-privileged-identity-management/10-summary) | Read only | ✅ |
 
-**Verification for Module 2:** activate an eligible role as the test admin,
+**Verification for Module 2:** Activate an eligible role as the test admin,
 confirm MFA/justification prompt, confirm the activation appears in PIM audit
 history with a clear start/end time.
 
@@ -92,13 +92,13 @@ its backend API securely — first with an API key, then hardened to OAuth2.
 
 | # | Unit | Lab task | Done |
 |---|---|---|---|
-| 3.1 | Introduction | Read only; confirm dev environment (VS Code, Node.js v20, Agents Toolkit, Azure Functions Tools) is installed | ⬜ |
-| 3.2 | Integrate an API plugin with an API secured with a key | Build a minimal Azure Function API secured with an API key; wire it into a declarative agent's API plugin | ⬜ |
-| 3.3 | Exercise — API key integration | Follow guided exercise against your own Northgate-themed API (e.g. "Registrar lookup" stub) | ⬜ |
-| 3.4 | Integrate an API plugin with an API secured with OAuth2 | Reconfigure the same API to require OAuth2; update the plugin auth config accordingly | ⬜ |
-| 3.5 | Exercise — OAuth2 integration | Follow guided exercise; validate the agent authenticates via OAuth2 instead of a static key | ⬜ |
-| 3.6 | Module assessment | Complete — no build | ⬜ |
-| 3.7 | Summary | Read only | ⬜ |
+| 3.1 | Introduction | Read only; confirm dev environment (VS Code, Node.js v20, Agents Toolkit, Azure Functions Tools) is installed | ✅ |
+| 3.2 | Integrate an API plugin with an API secured with a key | Build a minimal Azure Function API secured with an API key; wire it into a declarative agent's API plugin | ✅ |
+| 3.3 | Exercise — API key integration | Follow guided exercise against your own Northgate-themed API (e.g. "Registrar lookup" stub) | ✅ |
+| 3.4 | Integrate an API plugin with an API secured with OAuth2 | Reconfigure the same API to require OAuth2; update the plugin auth config accordingly | ✅ |
+| 3.5 | Exercise — OAuth2 integration | Follow guided exercise; validate the agent authenticates via OAuth2 instead of a static key | ✅ |
+| 3.6 | Module assessment | Complete — no build | ✅ |
+| 3.7 | Summary | Read only | ✅ |
 
 **Verification for Module 3:** run the declarative agent in Microsoft 365
 Copilot, confirm it successfully calls the API under both auth methods (at
