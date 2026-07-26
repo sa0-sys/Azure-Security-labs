@@ -18,7 +18,7 @@ the Registrar's office.
 |---|---|
 | 1. Manage and implement authentication methods | ✅ Completed |
 | 2. Implement and configure Privileged Identity Management (PIM) | ✅ Completed | 
-| 3. Authenticate your API plugin for declarative agents with secured APIs | 🔄 In progress | 
+| 3. Authenticate your API plugin for declarative agents with secured APIs | ✅ Completed | 
 
 ## Setup notes
 
