@@ -6,20 +6,54 @@ Rather than deploying isolated resources, every lab contributes to a single ente
 
 The environment follows Microsoft Cloud Adoption Framework recommendations while remaining cost-effective enough to run within an Azure Free Trial subscription.
 
-## This directory;
+```mermaid
+flowchart TB
 
-Azure-Security-Labs
-│
-├── architecture
-│   ├── README.md
-│   ├── naming-convention.md
-│   ├── resource-organization.md
-│   ├── network-design.md
-│   ├── ip-addressing.md
-│   ├── security-boundaries.md
-│   ├── cost-considerations.md
-│   ├── deployment-phases.md
-│   └── diagrams
-│       ├── logical-network.drawio
-│       ├── logical-network.png
-│       └── subnet-layout.png
+    Users((Users))
+
+    Internet((Internet))
+
+    AGW[Application Gateway]
+
+    Users --> Internet
+    Internet --> AGW
+
+    subgraph Azure["Azure Subscription"]
+
+        subgraph RG["Resource Group: rg-network-prod"]
+
+            subgraph VNET["Virtual Network: vnet-northgate-prod
+            10.10.0.0/16"]
+
+                MGMT["Management
+                10.10.1.0/24"]
+
+                ID["Identity
+                10.10.2.0/24"]
+
+                APP["Application
+                10.10.3.0/24"]
+
+                DB["Database
+                10.10.4.0/24"]
+
+                PE["Private Endpoints
+                10.10.5.0/24"]
+
+                BAS["AzureBastionSubnet
+                10.10.6.0/26"]
+
+            end
+        end
+
+        KV[Azure Key Vault]
+
+        ST[Storage Account]
+
+    end
+
+    APP --> KV
+    APP --> ST
+    PE --> KV
+    PE --> ST
+```
