@@ -56,9 +56,9 @@ The environment adheres to Microsoft Cloud Adoption Framework recommendations wh
 
 | Resource | Name | Status |
 |----------|------|--------|
-| Key Vault | - | Configured |
+| Key Vault | kv-northgate-prod | Configured |
 | Storage Account | - | Planned |
-| Private Endpoint | - | Configured |
+| Private Endpoint | prep-keyvault | Configured |
 
 ---
 
