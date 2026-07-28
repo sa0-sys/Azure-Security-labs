@@ -58,11 +58,13 @@ The environment adheres to Microsoft Cloud Adoption Framework recommendations wh
 |----------|------|--------|
 | Key Vault | - | Configured |
 | Storage Account | - | Planned |
+| Private Endpoint | - | Configured |
 
 ---
 
 ## Current Network Flow
 
+```text
 Internet
 ↓
 Application Gateway
@@ -83,13 +85,10 @@ Private Endpoint
 ↓
 Key Vault
 
+```
 ---
 
 ## Planned Changes
 
-- Deploy Virtual Network
-- Create subnet structure
 - Configure NSGs
 - Deploy Storage Account
-- Create Key Vault
-- Configure Private Endpoint
