@@ -59,7 +59,7 @@ Although this project is a personal learning environment, the `prod` suffix is u
 | Subnet | `<purpose>-subnet` | `management-subnet` |
 | Network Security Group | `nsg-<purpose>` | `nsg-management` |
 | Route Table | `rt-<purpose>` | `rt-private-endpoints` |
-| Storage Account | `st<workload><environment>` | `stnorthgateprod` |
+| Storage Account | `st<workload><environment>` | `st-northgate-prod` |
 | Key Vault | `kv-<workload>-<environment>` | `kv-northgate-prod` |
 | Virtual Machine | `vm-<role>-<environment>` | `vm-management-prod` |
 | Managed Identity | `mi-<workload>-<purpose>` | `mi-webapp` |
@@ -153,5 +153,5 @@ rg-northgate-network
 │
 ├── kv-northgate-prod
 ├── st-northgate-prod
-└── pep-keyvault
+└── prep-keyvault
 ```
