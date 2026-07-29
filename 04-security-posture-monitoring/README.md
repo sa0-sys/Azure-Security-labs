@@ -44,7 +44,7 @@ This is your security control room — where you see everything, detect threats,
 
 | Lab | Description | Status |
 |-----|-------------|--------|
-| Coming soon | Enable Defender for Cloud on subscription | ⏳ |
+| Coming soon | Enable Defender for Cloud on subscription | ✅ |
 | Coming soon | Sentinel — connect data sources + create analytics rule | ⏳ |
 | Coming soon | Write a KQL detection query | ⏳ |
 | Coming soon | Build a Sentinel playbook for automated response | ⏳ |
