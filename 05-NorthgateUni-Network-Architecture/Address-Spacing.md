@@ -35,8 +35,9 @@ The `/16` address space provides 65,536 private IP addresses, which is significa
 | Application | 10.10.3.0/24 | Application workloads |
 | Database | 10.10.4.0/24 | Database services |
 | Private Endpoints | 10.10.5.0/24 | Azure Private Endpoints |
-| AzureBastionSubnet | 10.10.6.0/26 | Reserved subnet for Azure Bastion |
-| Reserved | 10.10.7.0/24 - 10.10.255.0/24 | Future expansion |
+| Compute | 10.10.6.0/24 | Compute workloads | 
+| AzureBastionSubnet | 10.10.7.0/26 | Reserved subnet for Azure Bastion |
+| Reserved | 10.10.8.0/24 - 10.10.255.0/24 | Future expansion |
 
 ---
 
@@ -91,5 +92,6 @@ These names are reserved and should not be repurposed.
 | 10.10.3.0/24 | Applications |
 | 10.10.4.0/24 | Databases |
 | 10.10.5.0/24 | Private Endpoints |
-| 10.10.6.0/26 | Azure Bastion |
+| 10.10.6.0/26 | Compute |
+| 10.10.7.0/24 | Azure Bastion |
 | Remaining | Reserved for future expansion |
