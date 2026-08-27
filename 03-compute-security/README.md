@@ -43,10 +43,10 @@ Securing the workloads themselves — VMs, containers, apps, and crucially for S
 
 | Lab | Description | Status |
 |-----|-------------|--------|
-| Coming soon | Enable JIT access on a VM | ✅ |
-| Coming soon | Deploy AKS with network policies + Defender | ✅ |
-| Coming soon | App Service — managed identity + Key Vault ref | ⏳ |
-| Coming soon | Secure Azure OpenAI deployment | ⏳ |
+| Done | Enable JIT access on a VM | ✅ |
+| Done | Deploy AKS with network policies + Defender | ✅ |
+| Done | App Service — managed identity + Key Vault ref | ✅ |
+| Done | Secure Azure OpenAI deployment | ✅ |
 
 ---
 
