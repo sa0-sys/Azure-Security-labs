@@ -39,10 +39,10 @@ The largest domain by weight. Think of this as securing the walls, pipes, and va
 
 | Lab | Description | Status |
 |-----|-------------|--------|
-| Coming soon | Deploy NSG with custom inbound/outbound rules | ✅ |
-| Coming soon | Configure Azure Firewall + WAF on App Gateway | ⏳ |
-| Coming soon | Storage account — private endpoint + CMK | ✅ |
-| Coming soon | Azure SQL — enable TDE + Dynamic Data Masking | ⏳ |
+| Done | Deploy NSG with custom inbound/outbound rules | ✅ |
+| Done | Configure Azure Firewall + WAF on App Gateway | ✅ |
+| Done | Storage account — private endpoint + CMK | ✅ |
+| Done | Azure SQL — enable TDE + Dynamic Data Masking | ✅ |
 
 ---
 
